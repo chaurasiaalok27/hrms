@@ -1,0 +1,34 @@
+.input-component {
+    border: 1px solid $hr_gray1;
+    padding: 8px;
+    border-radius: 25px;
+    transition: 0.1s all ease;
+
+    &:focus-within {
+       border:1.5px solid $hr_accent;
+       background: transparentize($color: ($hr_gray1), $amount: 0.75);
+    }
+   .inputBox{
+       border: 0px;
+       outline: 0px;
+       background: none;
+       width: 100%;
+       line-height: 16px;
+       font-size: 16px;
+
+       &:active {
+        outline: none;
+       }
+   }
+   
+   .input-icon-container {
+       display: flex;
+       align-items: center;
+       border: 0px;
+       
+   }
+   svg {
+       margin-left: 8px;
+       cursor: pointer;
+   }
+}

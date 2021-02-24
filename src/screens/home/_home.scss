@@ -1,0 +1,22 @@
+.home {
+    padding: 16px;
+    flex-basis: 100%;
+    .main-container
+    {
+        display: flex;
+        justify-content: space-between;
+    
+    .first-container {
+        background-color: $hr_white ;
+        width:68%;
+        border-radius: 10px;
+        height: 75vh;
+    }
+    .second-container{
+        background-color: $hr_white ;
+        width:30%;
+        border-radius: 10px;
+        height: 75vh;
+    }
+}
+}

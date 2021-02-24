@@ -1,0 +1,17 @@
+@import "./theme";
+@import "./common";
+@import "./typography";
+
+//components
+@import '../components/dashBoardLayout/style';
+@import '../components/header/header';
+@import '../components/input/input';
+@import '../components/avatar/Avatar';
+@import '../components/dataCard/datacard';
+@import '../components/recruitmentcard/recruitmentCard';
+@import '../components/hrCard/hrCard';
+@import '../components/calendar/calendar';
+
+
+//Screens
+@import '../screens/home/home';
