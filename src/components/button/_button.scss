@@ -1,0 +1,20 @@
+.button {
+ min-width: 200px;
+ padding: 8px;
+ border-radius: 24px;
+ font-weight: 700;
+ width:100%;
+ margin-top:16px;
+  &.--primary {
+    background: $hr_accent;
+    color: $hr_gray5;
+
+    &:hover {
+        background: lighten($color: $hr_accent, $amount: 1);
+        cursor: pointer;
+    }
+    &:active {
+        background: darken($color: $hr_accent, $amount: 0.2);
+    }
+ }
+}
